@@ -18,7 +18,7 @@ class Alumno {
         this.notaLengua = notaLengua;
         this.notaMates = notaMates;
         this.notaIngles = notaIngles;
-        double notaMedia = calcularMedia();
+        notaMedia = calcularMedia();
     }
     
     public double calcularMedia() {
